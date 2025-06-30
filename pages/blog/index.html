@@ -1,0 +1,249 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Blogs - Team Nexus</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/pages/blog.css">
+</head>
+<body>
+    <nav class="navbar" data-component="navbar">
+        <div class="navbar__container">
+            <div class="navbar__brand">
+                <a href="../../index.html">
+                    <h1 class="navbar__title">Team Nexus</h1>
+                    <span class="navbar__subtitle">AI Engineering</span>
+                </a>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="../../index.html" class="navbar__link">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../blog/" class="navbar__link navbar__link--active">Blogs</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../workflows/" class="navbar__link">Workflows</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../roadmap/" class="navbar__link">Roadmap</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <section class="blog-hero">
+            <div class="blog-hero__container">
+                <h1 class="blog-hero__title">Our Engineering Insights</h1>
+                <p class="blog-hero__subtitle">
+                    Exploring AI innovation, technical strategies, and our vision for the future
+                </p>
+            </div>
+        </section>
+
+        <section class="blog-content">
+            <div class="blog-content__container">
+                <!-- Blog Categories Filter -->
+                <div class="blog-filters">
+                    <div class="nav-pills">
+                        <button class="nav-pill nav-pill--active" data-filter="all">All Posts</button>
+                        <button class="nav-pill" data-filter="vision">Vision & Strategy</button>
+                        <button class="nav-pill" data-filter="tech">Tech Stack</button>
+                        <button class="nav-pill" data-filter="azure">Azure</button>
+                        <button class="nav-pill" data-filter="architecture">Solution Architecture</button>
+                    </div>
+                </div>
+
+                <!-- Blog Posts Grid -->
+                <div class="blog-grid">
+                    <!-- Vision & Strategy Posts -->
+                    <article class="blog-card" data-category="vision" data-animate="fade-up">
+                        <div class="blog-card__header">
+                            <div class="blog-card__category">
+                                <span class="tag tag--primary">Vision & Strategy</span>
+                            </div>
+                            <div class="blog-card__date">December 2024</div>
+                        </div>
+                        <div class="blog-card__content">
+                            <h3 class="blog-card__title">Our AI Engineering Vision</h3>
+                            <p class="blog-card__excerpt">
+                                At Team Nexus, we envision a future where AI seamlessly integrates into every business process, 
+                                enhancing human capabilities rather than replacing them. Our goal is to build intelligent systems 
+                                that understand context, learn continuously, and provide actionable insights.
+                            </p>
+                            <p class="blog-card__text">
+                                We focus on creating AI solutions that are not just powerful, but also ethical, transparent, 
+                                and aligned with business objectives. Our strategic approach emphasizes collaboration between 
+                                AI and human intelligence to achieve unprecedented levels of innovation.
+                            </p>
+                        </div>
+                        <div class="blog-card__footer">
+                            <div class="blog-card__author">Team Nexus</div>
+                            <div class="blog-card__read-time">3 min read</div>
+                        </div>
+                    </article>
+
+                    <article class="blog-card" data-category="vision" data-animate="fade-up">
+                        <div class="blog-card__header">
+                            <div class="blog-card__category">
+                                <span class="tag tag--primary">Vision & Strategy</span>
+                            </div>
+                            <div class="blog-card__date">November 2024</div>
+                        </div>
+                        <div class="blog-card__content">
+                            <h3 class="blog-card__title">Strategic AI Implementation at Camas IT</h3>
+                            <p class="blog-card__excerpt">
+                                Our strategic approach to AI implementation focuses on identifying high-impact use cases 
+                                that deliver immediate value while building a foundation for future innovation. We prioritize 
+                                solutions that enhance productivity, improve decision-making, and create competitive advantages.
+                            </p>
+                            <p class="blog-card__text">
+                                Through careful analysis and stakeholder engagement, we ensure that every AI initiative 
+                                aligns with organizational goals and delivers measurable ROI. Our methodology emphasizes 
+                                iterative development, continuous learning, and scalable architecture.
+                            </p>
+                        </div>
+                        <div class="blog-card__footer">
+                            <div class="blog-card__author">RG & Dima</div>
+                            <div class="blog-card__read-time">4 min read</div>
+                        </div>
+                    </article>
+
+                    <!-- Tech Stack Posts -->
+                    <article class="blog-card" data-category="tech" data-animate="fade-up">
+                        <div class="blog-card__header">
+                            <div class="blog-card__category">
+                                <span class="tag tag--accent">Tech Stack</span>
+                            </div>
+                            <div class="blog-card__date">December 2024</div>
+                        </div>
+                        <div class="blog-card__content">
+                            <h3 class="blog-card__title">Modern AI Development Stack</h3>
+                            <p class="blog-card__excerpt">
+                                Our technology stack is carefully curated to enable rapid AI development while maintaining 
+                                enterprise-grade reliability and security. We leverage cutting-edge frameworks, cloud services, 
+                                and development tools to build scalable AI solutions.
+                            </p>
+                            <p class="blog-card__text">
+                                Key technologies include Python ecosystem (PyTorch, Transformers, FastAPI), cloud platforms 
+                                (Azure AI Services, OpenAI), MLOps tools, and modern deployment infrastructure. This stack 
+                                enables us to go from prototype to production seamlessly.
+                            </p>
+                        </div>
+                        <div class="blog-card__footer">
+                            <div class="blog-card__author">Dima</div>
+                            <div class="blog-card__read-time">5 min read</div>
+                        </div>
+                    </article>
+
+                    <!-- Azure Posts -->
+                    <article class="blog-card" data-category="azure" data-animate="fade-up">
+                        <div class="blog-card__header">
+                            <div class="blog-card__category">
+                                <span class="tag">Azure</span>
+                            </div>
+                            <div class="blog-card__date">November 2024</div>
+                        </div>
+                        <div class="blog-card__content">
+                            <h3 class="blog-card__title">Leveraging Azure AI Services</h3>
+                            <p class="blog-card__excerpt">
+                                Azure's comprehensive AI platform provides us with the tools and services needed to build, 
+                                deploy, and manage AI solutions at scale. From cognitive services to machine learning pipelines, 
+                                Azure enables rapid development and robust deployment.
+                            </p>
+                            <p class="blog-card__text">
+                                We extensively use Azure OpenAI Service, Cognitive Services, Machine Learning Studio, and 
+                                containerized deployment options. The platform's integration capabilities allow us to 
+                                seamlessly connect AI services with existing business systems.
+                            </p>
+                        </div>
+                        <div class="blog-card__footer">
+                            <div class="blog-card__author">RG</div>
+                            <div class="blog-card__read-time">4 min read</div>
+                        </div>
+                    </article>
+
+                    <!-- Solution Architecture Posts -->
+                    <article class="blog-card" data-category="architecture" data-animate="fade-up">
+                        <div class="blog-card__header">
+                            <div class="blog-card__category">
+                                <span class="tag tag--secondary">Solution Architecture</span>
+                            </div>
+                            <div class="blog-card__date">December 2024</div>
+                        </div>
+                        <div class="blog-card__content">
+                            <h3 class="blog-card__title">Designing Scalable AI Architectures</h3>
+                            <p class="blog-card__excerpt">
+                                Effective AI solution architecture requires careful consideration of data flow, model deployment, 
+                                monitoring, and integration patterns. We design systems that are not only performant but also 
+                                maintainable, secure, and cost-effective.
+                            </p>
+                            <p class="blog-card__text">
+                                Our architectural principles emphasize microservices, event-driven design, and cloud-native 
+                                patterns. We implement robust monitoring, automated testing, and CI/CD pipelines to ensure 
+                                reliable AI system operation in production environments.
+                            </p>
+                        </div>
+                        <div class="blog-card__footer">
+                            <div class="blog-card__author">Dima</div>
+                            <div class="blog-card__read-time">6 min read</div>
+                        </div>
+                    </article>
+
+                    <!-- Additional Vision Post -->
+                    <article class="blog-card" data-category="vision" data-animate="fade-up">
+                        <div class="blog-card__header">
+                            <div class="blog-card__category">
+                                <span class="tag tag--primary">Vision & Strategy</span>
+                            </div>
+                            <div class="blog-card__date">October 2024</div>
+                        </div>
+                        <div class="blog-card__content">
+                            <h3 class="blog-card__title">The Future of AI in Enterprise</h3>
+                            <p class="blog-card__excerpt">
+                                As AI technology continues to evolve, we're seeing unprecedented opportunities for enterprise 
+                                transformation. Our vision extends beyond current capabilities to imagine how AI will reshape 
+                                business processes, decision-making, and customer experiences.
+                            </p>
+                            <p class="blog-card__text">
+                                We believe the future lies in AI systems that can understand context, adapt to changing 
+                                requirements, and work seamlessly alongside human teams. This requires not just technical 
+                                excellence, but also thoughtful consideration of ethical implications and user experience.
+                            </p>
+                        </div>
+                        <div class="blog-card__footer">
+                            <div class="blog-card__author">Team Nexus</div>
+                            <div class="blog-card__read-time">5 min read</div>
+                        </div>
+                    </article>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>Team Nexus</h3>
+                    <p>AI Engineering Excellence</p>
+                </div>
+                <div class="footer__links">
+                    <a href="../../index.html">Home</a>
+                    <a href="../blog/">Blogs</a>
+                    <a href="../workflows/">Workflows</a>
+                    <a href="../roadmap/">Roadmap</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 Camas IT - Team Nexus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/main.js" type="module"></script>
+    <script src="../../js/pages/blog.js" type="module"></script>
+</body>
+</html>

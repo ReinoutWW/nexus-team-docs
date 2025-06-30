@@ -1,0 +1,183 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Team Nexus - AI Engineering Excellence</title>
+    <link rel="stylesheet" href="css/main.css">
+</head>
+<body>
+    <nav class="navbar" data-component="navbar">
+        <div class="navbar__container">
+            <div class="navbar__brand">
+                <h1 class="navbar__title">Team Nexus</h1>
+                <span class="navbar__subtitle">AI Engineering</span>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="#home" class="navbar__link navbar__link--active">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="pages/blog/" class="navbar__link">Blogs</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="pages/workflows/" class="navbar__link">Workflows</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="pages/roadmap/" class="navbar__link">Roadmap</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <section class="hero" id="home">
+            <div class="hero__background"></div>
+            <div class="hero__container">
+                <div class="hero__content">
+                    <h1 class="hero__title">
+                        Welcome to <span class="hero__highlight">Team Nexus</span>
+                    </h1>
+                    <p class="hero__subtitle">
+                        Pioneering AI Engineering Excellence at Camas IT
+                    </p>
+                    <p class="hero__description">
+                        We are a dedicated team of AI engineers pushing the boundaries of artificial intelligence, 
+                        creating innovative solutions that transform how businesses operate and thrive in the digital age.
+                    </p>
+                    <div class="hero__actions">
+                        <button class="btn btn--primary" data-scroll-to="team">Meet Our Team</button>
+                        <button class="btn btn--secondary" data-scroll-to="projects">View Projects</button>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="team" id="team">
+            <div class="team__container">
+                <h2 class="team__title">Meet the Engineers</h2>
+                <p class="team__subtitle">The brilliant minds behind Team Nexus</p>
+                
+                <div class="team__grid">
+                    <div class="team-card" data-component="team-card">
+                        <div class="team-card__avatar">
+                            <div class="team-card__avatar-placeholder">RG</div>
+                        </div>
+                        <div class="team-card__content">
+                            <h3 class="team-card__name">RG</h3>
+                            <p class="team-card__role">Senior AI Engineer</p>
+                            <p class="team-card__description">
+                                Specializing in machine learning architecture and LLM integration. 
+                                RG leads our advanced AI research initiatives and develops cutting-edge 
+                                solutions for complex business challenges.
+                            </p>
+                            <div class="team-card__skills">
+                                <span class="skill-tag">Machine Learning</span>
+                                <span class="skill-tag">LLM Architecture</span>
+                                <span class="skill-tag">Python</span>
+                                <span class="skill-tag">Azure AI</span>
+                            </div>
+                        </div>
+                        <div class="team-card__overlay">
+                            <div class="team-card__overlay-content">
+                                <h4>Expertise Areas</h4>
+                                <ul>
+                                    <li>Deep Learning Frameworks</li>
+                                    <li>Natural Language Processing</li>
+                                    <li>AI Model Optimization</li>
+                                    <li>Research & Development</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="team-card" data-component="team-card">
+                        <div class="team-card__avatar">
+                            <div class="team-card__avatar-placeholder">DM</div>
+                        </div>
+                        <div class="team-card__content">
+                            <h3 class="team-card__name">Dima</h3>
+                            <p class="team-card__role">AI Solutions Architect</p>
+                            <p class="team-card__description">
+                                Expert in AI solution design and implementation. Dima focuses on 
+                                scalable AI infrastructure, prompt engineering, and integrating 
+                                AI capabilities into enterprise systems.
+                            </p>
+                            <div class="team-card__skills">
+                                <span class="skill-tag">Solution Architecture</span>
+                                <span class="skill-tag">Prompt Engineering</span>
+                                <span class="skill-tag">Cloud Infrastructure</span>
+                                <span class="skill-tag">Integration</span>
+                            </div>
+                        </div>
+                        <div class="team-card__overlay">
+                            <div class="team-card__overlay-content">
+                                <h4>Expertise Areas</h4>
+                                <ul>
+                                    <li>Enterprise AI Integration</li>
+                                    <li>Cloud AI Services</li>
+                                    <li>System Architecture</li>
+                                    <li>Performance Optimization</li>
+                                </ul>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <section class="projects-preview" id="projects">
+            <div class="projects-preview__container">
+                <h2 class="projects-preview__title">Current Focus Areas</h2>
+                <div class="projects-preview__grid">
+                    <div class="project-card">
+                        <div class="project-card__icon">🤖</div>
+                        <h3 class="project-card__title">LLM-Based Reporting</h3>
+                        <p class="project-card__description">
+                            Automated report generation using advanced language models
+                        </p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-card__icon">🎯</div>
+                        <h3 class="project-card__title">Prompt Engineering Training</h3>
+                        <p class="project-card__description">
+                            Comprehensive training programs for effective AI interaction
+                        </p>
+                    </div>
+                    <div class="project-card">
+                        <div class="project-card__icon">✅</div>
+                        <h3 class="project-card__title">Automatic QA Systems</h3>
+                        <p class="project-card__description">
+                            AI-powered quality assurance and automated auditing solutions
+                        </p>
+                    </div>
+                </div>
+                <div class="projects-preview__action">
+                    <a href="pages/roadmap/" class="btn btn--primary">View Full Roadmap</a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>Team Nexus</h3>
+                    <p>AI Engineering Excellence</p>
+                </div>
+                <div class="footer__links">
+                    <a href="pages/blog/">Blogs</a>
+                    <a href="pages/workflows/">Workflows</a>
+                    <a href="pages/roadmap/">Roadmap</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 Camas IT - Team Nexus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="js/main.js" type="module"></script>
+</body>
+</html>

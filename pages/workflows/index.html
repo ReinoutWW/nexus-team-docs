@@ -1,0 +1,433 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Workflows - Team Nexus</title>
+    <link rel="stylesheet" href="../../css/main.css">
+    <link rel="stylesheet" href="../../css/pages/workflows.css">
+</head>
+<body>
+    <nav class="navbar" data-component="navbar">
+        <div class="navbar__container">
+            <div class="navbar__brand">
+                <a href="../../index.html">
+                    <h1 class="navbar__title">Team Nexus</h1>
+                    <span class="navbar__subtitle">AI Engineering</span>
+                </a>
+            </div>
+            <ul class="navbar__menu">
+                <li class="navbar__item">
+                    <a href="../../index.html" class="navbar__link">Home</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../blog/" class="navbar__link">Blogs</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../workflows/" class="navbar__link navbar__link--active">Workflows</a>
+                </li>
+                <li class="navbar__item">
+                    <a href="../roadmap/" class="navbar__link">Roadmap</a>
+                </li>
+            </ul>
+        </div>
+    </nav>
+
+    <main class="main">
+        <section class="workflows-hero">
+            <div class="workflows-hero__container">
+                <h1 class="workflows-hero__title">Our Development Workflows</h1>
+                <p class="workflows-hero__subtitle">
+                    How Team Nexus operates within Camas IT to deliver exceptional AI solutions
+                </p>
+            </div>
+        </section>
+
+        <section class="workflows-content">
+            <div class="workflows-content__container">
+                <!-- Workflow Navigation -->
+                <div class="workflow-nav">
+                    <div class="nav-pills">
+                        <button class="nav-pill nav-pill--active" data-workflow="development">Development</button>
+                        <button class="nav-pill" data-workflow="collaboration">Collaboration</button>
+                        <button class="nav-pill" data-workflow="deployment">Deployment</button>
+                        <button class="nav-pill" data-workflow="quality">Quality Assurance</button>
+                    </div>
+                </div>
+
+                <!-- Development Workflow -->
+                <div class="workflow-section active" data-workflow-content="development">
+                    <div class="workflow-header">
+                        <h2 class="workflow-title">AI Development Lifecycle</h2>
+                        <p class="workflow-description">
+                            Our structured approach to developing AI solutions from concept to production
+                        </p>
+                    </div>
+
+                    <div class="workflow-timeline">
+                        <div class="timeline-item" data-animate="slide-right">
+                            <div class="timeline-marker">
+                                <div class="timeline-number">1</div>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Discovery & Analysis</h3>
+                                <p class="timeline-description">
+                                    We begin every project with thorough stakeholder interviews, requirement gathering, 
+                                    and feasibility analysis. This phase includes identifying AI use cases, data assessment, 
+                                    and defining success metrics.
+                                </p>
+                                <div class="timeline-tools">
+                                    <span class="tool-tag">Stakeholder Interviews</span>
+                                    <span class="tool-tag">Data Assessment</span>
+                                    <span class="tool-tag">Feasibility Study</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-animate="slide-left">
+                            <div class="timeline-marker">
+                                <div class="timeline-number">2</div>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Architecture Design</h3>
+                                <p class="timeline-description">
+                                    Design scalable, maintainable AI architecture including data pipelines, model 
+                                    infrastructure, API design, and integration points with existing systems.
+                                </p>
+                                <div class="timeline-tools">
+                                    <span class="tool-tag">System Architecture</span>
+                                    <span class="tool-tag">API Design</span>
+                                    <span class="tool-tag">Data Pipeline Design</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-animate="slide-right">
+                            <div class="timeline-marker">
+                                <div class="timeline-number">3</div>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Rapid Prototyping</h3>
+                                <p class="timeline-description">
+                                    Build and test proof-of-concept solutions using modern AI frameworks. Quick iterations 
+                                    allow us to validate approaches and gather early feedback from stakeholders.
+                                </p>
+                                <div class="timeline-tools">
+                                    <span class="tool-tag">Python/PyTorch</span>
+                                    <span class="tool-tag">Jupyter Notebooks</span>
+                                    <span class="tool-tag">Azure AI Services</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-animate="slide-left">
+                            <div class="timeline-marker">
+                                <div class="timeline-number">4</div>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Development & Testing</h3>
+                                <p class="timeline-description">
+                                    Full-scale development with comprehensive testing, including unit tests, integration 
+                                    tests, and AI-specific validations like model performance and bias testing.
+                                </p>
+                                <div class="timeline-tools">
+                                    <span class="tool-tag">Test-Driven Development</span>
+                                    <span class="tool-tag">Model Validation</span>
+                                    <span class="tool-tag">Performance Testing</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="timeline-item" data-animate="slide-right">
+                            <div class="timeline-marker">
+                                <div class="timeline-number">5</div>
+                            </div>
+                            <div class="timeline-content">
+                                <h3 class="timeline-title">Production Deployment</h3>
+                                <p class="timeline-description">
+                                    Secure, scalable deployment with monitoring, logging, and automated rollback 
+                                    capabilities. Includes production readiness reviews and performance optimization.
+                                </p>
+                                <div class="timeline-tools">
+                                    <span class="tool-tag">Azure Container Apps</span>
+                                    <span class="tool-tag">CI/CD Pipelines</span>
+                                    <span class="tool-tag">Monitoring & Alerting</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Collaboration Workflow -->
+                <div class="workflow-section" data-workflow-content="collaboration">
+                    <div class="workflow-header">
+                        <h2 class="workflow-title">Team Collaboration Process</h2>
+                        <p class="workflow-description">
+                            How we work together and with other teams at Camas IT
+                        </p>
+                    </div>
+
+                    <div class="collaboration-grid">
+                        <div class="collab-card" data-animate="fade-up">
+                            <div class="collab-icon">👥</div>
+                            <h3 class="collab-title">Daily Standups</h3>
+                            <p class="collab-description">
+                                15-minute daily sync meetings to share progress, discuss blockers, 
+                                and align on priorities. Includes both internal team updates and 
+                                cross-team collaboration points.
+                            </p>
+                        </div>
+
+                        <div class="collab-card" data-animate="fade-up">
+                            <div class="collab-icon">📋</div>
+                            <h3 class="collab-title">Sprint Planning</h3>
+                            <p class="collab-description">
+                                Bi-weekly sprint planning sessions where we break down projects 
+                                into manageable tasks, estimate effort, and commit to deliverables 
+                                with clear acceptance criteria.
+                            </p>
+                        </div>
+
+                        <div class="collab-card" data-animate="fade-up">
+                            <div class="collab-icon">🔍</div>
+                            <h3 class="collab-title">Code Reviews</h3>
+                            <p class="collab-description">
+                                Comprehensive peer code reviews focusing on quality, security, 
+                                performance, and maintainability. Every piece of code is reviewed 
+                                by at least one other team member.
+                            </p>
+                        </div>
+
+                        <div class="collab-card" data-animate="fade-up">
+                            <div class="collab-icon">📚</div>
+                            <h3 class="collab-title">Knowledge Sharing</h3>
+                            <p class="collab-description">
+                                Regular tech talks, documentation updates, and cross-training 
+                                sessions to ensure knowledge is distributed across the team 
+                                and organization.
+                            </p>
+                        </div>
+
+                        <div class="collab-card" data-animate="fade-up">
+                            <div class="collab-icon">🔄</div>
+                            <h3 class="collab-title">Retrospectives</h3>
+                            <p class="collab-description">
+                                End-of-sprint retrospectives to reflect on what went well, 
+                                identify improvement areas, and implement process changes 
+                                for continuous improvement.
+                            </p>
+                        </div>
+
+                        <div class="collab-card" data-animate="fade-up">
+                            <div class="collab-icon">🎯</div>
+                            <h3 class="collab-title">Stakeholder Reviews</h3>
+                            <p class="collab-description">
+                                Regular demo sessions with stakeholders to showcase progress, 
+                                gather feedback, and ensure alignment with business objectives 
+                                and user needs.
+                            </p>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Deployment Workflow -->
+                <div class="workflow-section" data-workflow-content="deployment">
+                    <div class="workflow-header">
+                        <h2 class="workflow-title">Deployment Pipeline</h2>
+                        <p class="workflow-description">
+                            Our automated CI/CD process for reliable and secure deployments
+                        </p>
+                    </div>
+
+                    <div class="deployment-flow">
+                        <div class="deployment-stage" data-animate="scale">
+                            <div class="stage-header">
+                                <div class="stage-icon">📝</div>
+                                <h3 class="stage-title">Code Commit</h3>
+                            </div>
+                            <div class="stage-content">
+                                <p>Developer commits code to feature branch with comprehensive commit messages</p>
+                                <div class="stage-tools">
+                                    <span class="tool-tag">Git</span>
+                                    <span class="tool-tag">Branch Protection</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="deployment-arrow">→</div>
+
+                        <div class="deployment-stage" data-animate="scale">
+                            <div class="stage-header">
+                                <div class="stage-icon">🔍</div>
+                                <h3 class="stage-title">Automated Testing</h3>
+                            </div>
+                            <div class="stage-content">
+                                <p>Comprehensive test suite runs including unit, integration, and AI model validation</p>
+                                <div class="stage-tools">
+                                    <span class="tool-tag">PyTest</span>
+                                    <span class="tool-tag">Model Testing</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="deployment-arrow">→</div>
+
+                        <div class="deployment-stage" data-animate="scale">
+                            <div class="stage-header">
+                                <div class="stage-icon">🛡️</div>
+                                <h3 class="stage-title">Security Scan</h3>
+                            </div>
+                            <div class="stage-content">
+                                <p>Automated security scanning for vulnerabilities and compliance checks</p>
+                                <div class="stage-tools">
+                                    <span class="tool-tag">SAST</span>
+                                    <span class="tool-tag">Dependency Check</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="deployment-arrow">→</div>
+
+                        <div class="deployment-stage" data-animate="scale">
+                            <div class="stage-header">
+                                <div class="stage-icon">🚀</div>
+                                <h3 class="stage-title">Deployment</h3>
+                            </div>
+                            <div class="stage-content">
+                                <p>Automated deployment to staging and production environments with health checks</p>
+                                <div class="stage-tools">
+                                    <span class="tool-tag">Azure DevOps</span>
+                                    <span class="tool-tag">Blue-Green Deploy</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Quality Assurance Workflow -->
+                <div class="workflow-section" data-workflow-content="quality">
+                    <div class="workflow-header">
+                        <h2 class="workflow-title">Quality Assurance Process</h2>
+                        <p class="workflow-description">
+                            Multi-layered approach to ensuring high-quality AI solutions
+                        </p>
+                    </div>
+
+                    <div class="quality-matrix">
+                        <div class="quality-category" data-animate="fade-up">
+                            <h3 class="quality-title">Code Quality</h3>
+                            <div class="quality-items">
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Peer code reviews</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Automated linting & formatting</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Static code analysis</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Documentation standards</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quality-category" data-animate="fade-up">
+                            <h3 class="quality-title">AI Model Quality</h3>
+                            <div class="quality-items">
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Performance benchmarking</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Bias and fairness testing</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Model validation & cross-validation</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Robustness testing</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quality-category" data-animate="fade-up">
+                            <h3 class="quality-title">Security & Compliance</h3>
+                            <div class="quality-items">
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Security vulnerability scanning</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Data privacy compliance</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Access control validation</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Audit trail maintenance</span>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="quality-category" data-animate="fade-up">
+                            <h3 class="quality-title">User Experience</h3>
+                            <div class="quality-items">
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Usability testing</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Performance monitoring</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Error handling validation</span>
+                                </div>
+                                <div class="quality-item">
+                                    <span class="quality-check">✅</span>
+                                    <span class="quality-text">Accessibility compliance</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container">
+            <div class="footer__content">
+                <div class="footer__brand">
+                    <h3>Team Nexus</h3>
+                    <p>AI Engineering Excellence</p>
+                </div>
+                <div class="footer__links">
+                    <a href="../../index.html">Home</a>
+                    <a href="../blog/">Blogs</a>
+                    <a href="../workflows/">Workflows</a>
+                    <a href="../roadmap/">Roadmap</a>
+                </div>
+            </div>
+            <div class="footer__bottom">
+                <p>&copy; 2024 Camas IT - Team Nexus. All rights reserved.</p>
+            </div>
+        </div>
+    </footer>
+
+    <script src="../../js/main.js" type="module"></script>
+    <script src="../../js/pages/workflows.js" type="module"></script>
+</body>
+</html>
